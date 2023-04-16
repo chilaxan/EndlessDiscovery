@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Discovery: Loading</title>
+    <style>
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        body {
+            background-color: #cbd5e1;
+            // Center Everything
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        body > div {
+            justify-content: center;
+        }
+        svg {
+            width: 25%;
+            height: 25%;
+            color: red;
+            animation: spin 3s linear infinite;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>This page is loading...</h1>
+    <svg id="eZly6Ymbuoz1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 700 700" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><defs><linearGradient id="eZly6Ymbuoz3-fill" x1="0" y1="0.5" x2="1" y2="0.5" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="eZly6Ymbuoz3-fill-0" offset="0%" stop-color="#a8a2f1"/><stop id="eZly6Ymbuoz3-fill-1" offset="100%" stop-color="#cd1e87"/></linearGradient></defs><g clip-rule="evenodd"><path d="M548.5,183.5c36.387,1.032,67.387,14.365,93,40c33.047,33.904,49.38,74.738,49,122.5.918,52.3-17.415,96.3-55,132-41.511,34.752-87.511,42.752-138,24-21.886-9.273-42.553-20.606-62-34-9.358-7.364-18.691-14.697-28-22-41.985-37.32-83.319-75.32-124-114-24.899-22.574-51.232-43.24-79-62-18.963-12.322-39.63-20.322-62-24-27.706-2.763-52.0392,4.903-73,23C36.7819,297.421,22.6152,333.254,27,376.5c8.0435,35.714,28.8768,60.88,62.5,75.5c25.563,9.557,51.23,9.89,77,1c11.994-4.495,23.661-9.828,35-16c31.574-19.906,59.074-44.406,82.5-73.5c15.401,14.905,30.901,29.572,46.5,44c1.021.502,1.188,1.168.5,2-25.696,26.371-53.196,50.538-82.5,72.5-16.885,11.109-34.885,20.109-54,27-57.34,15.38-105.8405,1.214-145.5-42.5-40.48582-53.146-50.81915-111.812-31-176c16.546-45.542,47.046-77.709,91.5-96.5c37.383-12.123,73.716-9.457,109,8c17.462,9.145,34.129,19.478,50,31c21.561,16.885,42.561,34.552,63,53c36.412,33.751,72.745,67.418,109,101c18.888,16.448,38.888,31.448,60,45c21.596,12.921,44.929,20.754,70,23.5c44.875-2.5,76.375-24.167,94.5-65c8.259-18.791,12.759-38.458,13.5-59-2.007-17.012-8.173-32.346-18.5-46-34.92-44.682-78.753-57.182-131.5-37.5-16.952,7.806-32.952,17.139-48,28-22.157,18.327-43.157,37.827-63,58.5-15.693-14.695-31.36-29.361-47-44c24.882-24.379,50.882-47.546,78-69.5c11.838-8.089,24.171-15.422,37-22c20.371-9.489,41.371-14.656,63-15.5Z" transform="translate(.616577 0)" clip-rule="evenodd" fill="url(#eZly6Ymbuoz3-fill)" fill-rule="evenodd" stroke="#fff"/></g></svg>
+
+
+</div>
+<script>
+    setTimeout(function(){
+        window.location.reload(1);
+    }, 10000);
+</script>
+</body>
+</html>
